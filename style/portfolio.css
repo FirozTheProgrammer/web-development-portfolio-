@@ -1,0 +1,49 @@
+/* common style for all tags */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* common primary color */
+.primary-orange {
+  color: #fd6e0a;
+}
+
+/* navbar style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.primary-btn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border: none;
+}
