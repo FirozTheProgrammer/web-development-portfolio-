@@ -119,10 +119,14 @@ body {
   margin: 0 auto;
 }
 
+.main-section section {
+  margin: 130px 0;
+}
+
 /* about related section */
 .about-section {
   padding: 130px;
-  margin: 130px 0;
+
   background-color: #fff8f3;
 }
 
@@ -168,4 +172,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+
+/* resume section style */
+.resume-title {
+  margin-bottom: 120px;
 }
